@@ -1,0 +1,1 @@
+-El controlador no verifica si el nombre es un string vacio, podria realizarse dicha comprobación.

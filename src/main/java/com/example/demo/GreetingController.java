@@ -11,7 +11,6 @@ public class GreetingController {
     @GetMapping("/say-hello")
     @ResponseBody
     public String sayHello(@RequestParam(name = "name", required = true) String name){
-//        return new Greeting("Hello ".concat(name));
-        return "Hello ".concat(name);
+        return "Hello, ".concat(name);
     }
 }
