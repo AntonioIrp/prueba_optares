@@ -1,1 +1,2 @@
 -El controlador no verifica si el nombre es un string vacio, podria realizarse dicha comprobación.
+-Puede añadirse otro parametro mas a la request para apellidos por ejemplo
